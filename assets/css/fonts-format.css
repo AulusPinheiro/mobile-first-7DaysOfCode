@@ -1,0 +1,23 @@
+.peso-400-14px {
+  font-size: 14px;
+  font-weight: var(--peso-400);
+}
+
+.peso-400-12px {
+  font-size: 12px;
+  font-weight: var(--peso-400);
+}
+
+.peso-500-12px {
+  font-size: 12px;
+  font-weight: var(--peso-500);
+}
+
+.peso-500-14px {
+  font-size: 14px;
+  font-weight: var(--peso-500);
+}
+
+.peso-700 {
+  font-weight: var(--peso-500);
+}

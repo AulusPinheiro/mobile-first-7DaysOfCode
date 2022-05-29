@@ -1,0 +1,60 @@
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-main);
+}
+
+.faixa {
+  position: absolute;
+  background: #FFFFFF;
+}
+
+.cabecalho {
+  width: 223px;
+  height: 57px;
+  margin-top: 32px;
+  margin-left: 16px;
+  padding-bottom: 25px;
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho-perfil {
+  width: 57px;
+  height: 57px;
+}
+
+.posicao-ini-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalho-inicio {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+}
+
+.cabecalho-descricao {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  width: 10rem;
+}
+
+.dia-semana {
+  width: 360px;
+  height: 42px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #464646;
+}
+
+.card {
+  width: 328px;
+  height: 170px;
+  background: var(--bg-card);
+  backdrop-filter: blur(22px);
+  border-radius: 8px;
+}
+
